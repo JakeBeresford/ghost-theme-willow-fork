@@ -4,14 +4,14 @@
 |-------------------------------------------------------------------------------
 */
 .c-sidebar-navigation {
-  font-size: 0.9em;
-  margin-bottom: 20px;
-  padding: 0 15px 20px;
-  border-bottom: 1px solid $c-gray;
+    margin-bottom: 20px;
+    padding: 0 15px 20px;
+    font-size: 0.9em;
+    border-bottom: 1px solid $c-gray;
 }
 
 .c-sidebar-navigation__item {
-  padding: 5px;
-  font-weight: bold;
-  display: inline-block;
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
 }

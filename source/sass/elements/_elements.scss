@@ -5,48 +5,48 @@
 */
 // All
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 // Body, Html
 body, html {
-  height: 100%;
+    height: 100%;
 }
 
 // Body
 body {
-  color: $c-black;
-  font-size: 16px;
-  min-width: 320px;
-  line-height: 1.5;
-  background: $c-background;
-  font-family: 'Merriweather', serif;
+    min-width: 320px;
+    color: $c-black;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    background: $c-background;
 }
 
 // Anchors
 a {
-  outline: none;
-  color: $c-black;
-  @include transition();
-  text-decoration: none;
+    @include transition();
+    outline: none;
+    color: $c-black;
+    text-decoration: none;
 
-  &:hover {
-    color: $c-grayDark;
-  }
+    &:hover {
+        color: $c-gray-dark;
+    }
 }
 
 // Headings
 h1 {
-  margin: 0;
-  font-size: 1.4em;
+    margin: 0;
+    font-size: 1.4em;
 }
 
 h2 {
-  margin: 0;
-  font-size: 1.2em;
+    margin: 0;
+    font-size: 1.2em;
 }
 
 h3 {
-  margin: 0;
-  font-size: 1em;
+    margin: 0;
+    font-size: 1em;
 }

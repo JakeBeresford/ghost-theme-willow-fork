@@ -4,37 +4,37 @@
 |-------------------------------------------------------------------------------
 */
 .c-author-page {
-  text-align: center;
-  margin-bottom: 40px;
-  padding: 10px 0 40px;
-  border-bottom: 1px solid $c-gray;
+    margin-bottom: 40px;
+    padding: 10px 0 40px;
+    text-align: center;
+    border-bottom: 1px solid $c-gray;
 }
 
 // Image
 .c-author-page__image {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .c-author-page__image__src {
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
-  @include border-radius(50px);
+    @include border-radius(50px);
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
 }
 
 // Bio
 .c-author-page__bio {
-  max-width: 600px;
-  font-size: 0.9em;
-  color: $c-grayDark;
-  font-weight: normal;
-  margin: 20px auto 0;
+    margin: 20px auto 0;
+    max-width: 600px;
+    color: $c-gray-dark;
+    font-size: 0.9em;
+    font-weight: normal;
 }
 
 // Meta
 .c-author-page__meta {
-  margin-top: 20px;
-  font-size: 0.9em;
-  color: $c-grayDark;
+    margin-top: 20px;
+    color: $c-gray-dark;
+    font-size: 0.9em;
 }

@@ -5,32 +5,32 @@
 */
 // Cover
 .c-sidebar-header {
-  height: 100px;
-  position: relative;
-  margin-bottom: 65px;
-  @include bg-size(cover);
-  background-position: 50% 50%;
+    @include bg-size(cover);
+    position: relative;
+    margin-bottom: 65px;
+    height: 100px;
+    background-position: 50% 50%;
 }
 
 // Logo and link
 .c-sidebar-header__link,
 .c-sidebar-header__image {
-  width: 80px;
-  height: 80px;
-  display: block;
+    display: block;
+    width: 80px;
+    height: 80px;
 }
 
 // Logo
 .c-sidebar-header__image {
-  @include border-radius(40px);
-  border: 2px solid $c-white;
+    @include border-radius(40px);
+    border: 2px solid $c-white;
 }
 
 // Link {
 .c-sidebar-header__link {
-  left: 50%;
-  bottom: -40px;
-  z-index: 1;
-  position: absolute;
-  margin-left: -40px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    z-index: 1;
+    margin-left: -40px;
 }

@@ -4,21 +4,20 @@
 |-------------------------------------------------------------------------------
 */
 .c-site-content {
-  min-height: 100vh;
-  max-width: $maxPageWidth;
+    max-width: $max-page-width;
+    min-height: 100vh;
+    background: $c-white;
+    border-right: 1px solid $c-gray;
+    border-left: 1px solid $c-gray;
 
-  background: $c-white;
-  border-left: 1px solid $c-gray;
-  border-right: 1px solid $c-gray;
+    // Less padding for mobile devices
+    @include breakpoint(mobile) {
+        padding: 20px;
+    }
 
-  // Less padding for mobile devices
-  @include breakpoint(mobile) {
-    padding: 20px;
-  }
-
-  // More padding + margin on desktop
-  @include breakpoint(desktop) {
-    padding: 30px;
-    margin-left: $sidebarWidth;
-  }
+    // More padding + margin on desktop
+    @include breakpoint(desktop) {
+        margin-left: $sidebar-width;
+        padding: 30px;
+    }
 }

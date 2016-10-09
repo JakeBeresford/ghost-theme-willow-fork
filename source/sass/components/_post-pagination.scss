@@ -4,9 +4,9 @@
 |-------------------------------------------------------------------------------
 */
 .c-post-pagination {
-  @extend .clear;
+    @extend %clear;
 }
 
 .c-post-pagination__item--older {
-  float: right;
+    float: right;
 }
